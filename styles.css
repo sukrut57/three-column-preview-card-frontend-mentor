@@ -75,6 +75,7 @@ h6 {
 .article{
     border: none;
     gap:3rem;
+    height: 500px;
 }
 
 .a-first{
