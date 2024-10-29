@@ -140,10 +140,18 @@ h6 {
 }
 
 
-@media (max-width: 768px){
+@media (max-width: 988px){
  
     .article{
         border-radius: 0;
+    }
+    
+}
+
+@media (max-width: 1033px){
+ 
+    .article{
+        min-height: 600px;
     }
     
 }
