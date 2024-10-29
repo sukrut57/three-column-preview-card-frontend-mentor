@@ -1,0 +1,16 @@
+/* lexend-deca-regular - latin */
+@font-face {
+    font-display: swap; 
+    font-family: 'Lexend Deca';
+    font-style: normal;
+    font-weight: 400;
+    src: url('lexend-deca-v21-latin-regular.woff2') format('woff2'); }
+
+  /* big-shoulders-display-700 - latin */
+@font-face {
+  font-display: swap; 
+  font-family: 'Big Shoulders Display';
+  font-style: normal;
+  font-weight: 700;
+  src: url('big-shoulders-display-v21-latin-700.woff2') format('woff2'); 
+}

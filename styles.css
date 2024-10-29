@@ -1,0 +1,149 @@
+@import url(fonts/fonts.css);
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+}
+
+body {
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+    font-family: 'Lexend Deca', sans-serif;
+    color: var(--primary-background-color)!important;
+    background-color: var(--primary-background-color);
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+    display: block;
+    max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+    font: inherit;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    overflow-wrap: break-word;
+}
+
+p {
+    text-wrap: pretty;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    text-wrap: balance;
+    font-family: 'Big Shoulders Display',sans-serif;
+}
+
+:root{
+    /*background, headings, buttons*/
+    --primary-background-color: hsl(0, 0%, 95%); 
+
+    /*paragraph*/
+    --secondary-background-color:hsla(0, 0%, 100%, 0.75);
+
+    --ff-900:hsl(179, 100%, 13%);
+    --ff-700:hsl(184, 100%, 22%);
+    --ff-500:hsl(31, 77%, 52%);
+}
+
+
+
+.article{
+    border: none;
+    gap:3rem;
+}
+
+.a-first{
+    background-color: var(--ff-500);
+    border-top-left-radius: 0.5rem;
+    border-bottom-left-radius: 0.5rem;
+}
+
+.a-second{
+    background-color: var(--ff-700);
+}
+
+.a-third{
+    background-color: var(--ff-900);
+    border-top-right-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+}
+
+
+
+.card-img-top{
+    width: 55px!important;
+    height: 35px;
+    object-fit: contain;
+    display: flex;
+    justify-self: start;
+    
+}
+
+
+.button{
+    padding: 0.5rem 1.5rem;
+    border-radius: 1.5rem;
+    border: 1px solid var(--primary-background-color);
+    background-color: var(--primary-background-color);
+}
+
+.first{
+    color: var(--ff-500);
+}
+.second{
+    color: var(--ff-700);
+}
+.third{
+    color: var(--ff-900);
+}
+
+
+.first:hover{
+    background-color: var(--ff-500);
+    color: var(--primary-background-color);
+}
+
+.second:hover{
+    background-color: var(--ff-700);
+    color: var(--primary-background-color);
+}
+
+
+.third:hover{
+    background-color: var(--ff-900);
+    color: var(--primary-background-color);
+}
+
+
+@media (max-width: 768px){
+ 
+    .article{
+        border-radius: 0;
+    }
+    
+}
